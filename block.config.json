@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/test_sync.git",
+    "ssh": "git@github.com:uttahb/test_sync.git",
+    "branch": "block_removeTodo"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "removeTodo",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "3yad0yKBCycP5Q7Cbuq0O",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "ohkC0_A-vOeehl7WkDqoJ"
+  ]
+}
