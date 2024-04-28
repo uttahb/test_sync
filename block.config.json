@@ -1,0 +1,36 @@
+{
+  "name": "test_sync",
+  "type": "package",
+  "source": {
+    "https": null,
+    "ssh": null,
+    "branch": "block_test_sync"
+  },
+  "dependencies": {
+    "addTodo": {
+      "directory": "addTodo"
+    },
+    "removeTodo": {
+      "directory": "removeTodo"
+    },
+    "listTodos": {
+      "directory": "listTodos"
+    },
+    "todoInput": {
+      "directory": "todoInput"
+    },
+    "todoItem": {
+      "directory": "todoItem"
+    },
+    "todoContainer": {
+      "directory": "todoContainer"
+    }
+  },
+  "blockId": "ohkC0_A-vOeehl7WkDqoJ",
+  "parentBlockIDs": [],
+  "isPublic": true,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "repoType": "mono"
+}
