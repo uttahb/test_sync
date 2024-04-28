@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/test_sync.git",
+    "ssh": "git@github.com:uttahb/test_sync.git",
+    "branch": "block_listTodos"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "listTodos",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "gx3P1nnL42be7hAREYRg1",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "ohkC0_A-vOeehl7WkDqoJ"
+  ]
+}
